@@ -8,6 +8,10 @@ The objective of this project is to detect a bicyle travelling around a car. The
 [image1]: ./ukf_sim_ss.png "ukf1"
 
 
+![alt text][image1]
+
+
+* [Here's a video of the performance of MPC algorithm in the simulator][video1]
 
 
 
@@ -17,5 +21,4 @@ The objective of this project is to detect a bicyle travelling around a car. The
 
 
 
-
-#### Note: This Project is part of the Udacity Self Driving Car nanodegree program.Instructions related to environment setup and the simulator can be found [here](https://github.com/udacity/CarND-Unscented-Kalman-Filter-Project)
+#### Note: This Project is part of the Udacity Self Driving Car nanodegree program. Instructions related to environment setup and the simulator can be found [here](https://github.com/udacity/CarND-Unscented-Kalman-Filter-Project)
