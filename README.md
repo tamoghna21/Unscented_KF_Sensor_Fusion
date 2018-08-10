@@ -7,6 +7,7 @@ The objective of this project is to detect a bicyle travelling around a car. The
 [video1]: ./UKF_video.mov "VideoUKF"
 [image1]: ./ukf_sim_ss.png "ukf1"
 
+* An unscented Kalman filter using the constant turn rate and velocity magnitude (CTRV) motion model is implemented.
 
 * Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles. The image and the video below shows what the simulator looks like when a c++ script is using its Kalman filter to track the object. A simulator provides the script the measured data (lidar and/or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
 
