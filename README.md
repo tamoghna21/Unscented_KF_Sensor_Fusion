@@ -1,4 +1,4 @@
-# Unsceneted Kalman Filter for bicycle detection on the road
+# Unsceneted Kalman Filter for bicycle tracking on the road
 The objective of this project is to detect a bicyle travelling around a car. The car is fitted with Lidar and radar sensors. Noisy lidar and radar data measurements are avilable. An unsceneted Kalman Filter has been implemented for this purpose.
 
 
@@ -6,6 +6,9 @@ The objective of this project is to detect a bicyle travelling around a car. The
 
 [video1]: ./UKF_video.mov "VideoUKF"
 [image1]: ./ukf_sim_ss.png "ukf1"
+
+
+* Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles. The video below shows what the simulator looks like when a c++ script is using its Kalman filter to track the object. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
 
 
 ![alt text][image1]
